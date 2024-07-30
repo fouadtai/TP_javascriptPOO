@@ -1,0 +1,18 @@
+{
+    "apis": {
+        "mapbox_gl": {
+            "apiKey": "pk.eyJ1IjoidGFpLWZvdWFkIiwiYSI6ImNsejZ4M3I0ZjAycm0zMHNjMmo3cWlrenIifQ.ISS9mvLDWsIUfn5R3AL4RQ",
+            "css_url": "https://api.mapbox.com/mapbox-gl-js/v3.5.1/mapbox-gl.css",
+            "map_styles": {
+                "streets": "mapbox://styles/mapbox/streets-v12",
+                "outdoors": "mapbox://styles/mapbox/outdoors-v12",
+                "light": "mapbox://styles/mapbox/light-v11",
+                "dark": "mapbox://styles/mapbox/dark-v11",
+                "satellite": "mapbox://styles/mapbox/satellite-v9",
+                "satellite_streets": "mapbox://styles/mapbox/satellite-streets-v12",
+                "navigation_day": "mapbox://styles/mapbox/navigation-day-v1",
+                "navigation_night": "mapbox://styles/mapbox/navigation-night-v1"
+            }
+        }
+    }
+}
