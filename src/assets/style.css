@@ -8,3 +8,131 @@
     height: 200vh;
     background-color: aliceblue;
 }
+
+#sidebar {
+    width: 300px;
+    /* Fixed width for the sidebar */
+    padding: 20px;
+    /* Padding around the content */
+    background-color: white;
+    /* Background color for the sidebar */
+    overflow-y: auto;
+    /* Allow scrolling if content overflows */
+}
+
+/* Additional styles for form elements */
+.form-label {
+    font-weight: bold;
+    /* Make labels bold */
+}
+
+.btn {
+    margin-top: 10px;
+    /* Add some margin to the button */
+}
+
+/* Popup container */
+.mapboxgl-popup {
+    max-width: 300px;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Popup content */
+.mapboxgl-popup-content {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Popup close button */
+.mapboxgl-popup-close-button {
+    font-size: 16px;
+    color: #666;
+    top: 10px;
+    right: 10px;
+}
+
+/* Event title */
+.popup-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Event description */
+.popup-description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+/* Event dates */
+.popup-dates {
+    font-size: 13px;
+    color: #888;
+    margin-bottom: 15px;
+}
+
+/* Buttons container */
+.popup-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Edit and Delete buttons */
+.popup-edit-btn,
+.popup-delete-btn {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.popup-edit-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.popup-delete-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.popup-edit-btn:hover {
+    background-color: #45a049;
+}
+
+.popup-delete-btn:hover {
+    background-color: #d32f2f;
+}
+
+/* Tip of the popup */
+.mapboxgl-popup-tip {
+    border-top-color: #ffffff;
+    border-bottom-color: #ffffff;
+}
+
+/* Ajoutez ceci à votre fichier style.css */
+
+.popup-status {
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.popup-status-soon {
+    background-color: #fff3cd;
+    color: #856404;
+    border: 1px solid #ffeeba;
+}
+
+.popup-status-passed {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
