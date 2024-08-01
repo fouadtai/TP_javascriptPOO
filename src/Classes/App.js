@@ -157,7 +157,7 @@ class App {
         event.preventDefault();
 
         const title = document.getElementById('eventTitle').value;
-        const description = document.getElement.getElementById('eventDescription').value;
+        const description = document.getElementById('eventDescription').value;
         const startDate = new Date(document.getElementById('startDate').value);
         const endDate = new Date(document.getElementById('endDate').value);
         const latitude = parseFloat(document.getElementById('latitude').value);

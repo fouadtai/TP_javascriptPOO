@@ -1,4 +1,3 @@
-// LocalEvent.js
 import mapboxgl from 'mapbox-gl';
 
 class LocalEvent {
